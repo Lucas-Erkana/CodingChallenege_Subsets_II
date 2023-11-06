@@ -1,34 +1,22 @@
-# CHallenge Title
+# Subsets II
 
-Write problem here
+Given an integer array `nums` that may contain duplicates, return all possible subsets (the power set).
 
+The solution set must not contain duplicate subsets. Return the solution in any order.
 
+## Example
 
+```
+Input: nums = [1,2,2]
+Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
+```
 
-## Examples
-
-**Input:**
 ```
-Write input here
+Input: nums = [0]
+Output: [[],[0]]
 ```
-**Output:**
-```
-Write expected result here
-```
-**Explanation:**
-Write explanation here
-
-**Input:**
-```
-Write input here
-```
-**Output:**
-```
-Write expected result here
-```
-**Explanation:**
-Write explanation here
 
 ## Constraints
 
-Write constraints here
+- `1 <= nums.length <= 10`
+- `-10 <= nums[i] <= 10`
